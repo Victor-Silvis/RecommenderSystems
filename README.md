@@ -13,5 +13,6 @@ This system identifies which user vectors are closest to a given user's vector u
 Key Features:
 - Collaborative Filtering:
 The recommendation process is purely based on observed user rating patterns and the similarity between users, rather than explicit attributes of users or items.
-
+- Incorporating Item Features:
+One variation of the system incorporates item features alongside user-item interactions to evaluate whether this additional information enhances recommendation accuracy.
 
