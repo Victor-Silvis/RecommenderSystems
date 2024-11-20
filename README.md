@@ -16,7 +16,7 @@ The KNN-based system identifies which user vectors are closest to a given user's
   The recommendation process is based solely on observed user rating patterns and the similarity between users, rather than explicit attributes of users or items.
   
 - **Incorporating Item Features:**  
-  One variation incorporates item features alongside user-item interactions to assess whether this additional information enhances recommendation accuracy.
+  One variation incorporates item features alongside user-item interactions to assess whether this additional information enhances recommendation accuracy. This can also be seen as a collaborative filtering and content based system hybrid.
 
 - **Prediction Methods:**  
   - **Regression-based Prediction:** Predicts a numerical rating that a user might assign to an unseen item.  
