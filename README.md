@@ -4,7 +4,7 @@ A collection of various recommender systems that can be used to suggest items to
 ## What are they?
 Recommender systems are algorithms designed to suggest relevant items to users by analyzing either the characteristics of the items or the behavior of similar users. Widely used in applications like streaming services, e-commerce, and social media, these systems enhance user experience by delivering personalized content. They generally fall into two main categories: content-based filtering, which recommends items based on their similarity to items a user has previously liked, and collaborative filtering, which finds patterns in user interactions to suggest items based on shared preferences. This repository provides a collection of various recommender system approaches to demonstrate how they can be implemented to provide relevant recommendations for users.
 
-## <h1 style='color:blue;'>Applications
+## <h1 style='color:blue;'>Applications</h1>
 - E-commerce platforms for personalized product recommendations.
 - Media streaming services for suggesting movies, shows or music
 - Online learning platforms to recommend courses or materials based on user preferences.
