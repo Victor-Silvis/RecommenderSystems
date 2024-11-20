@@ -12,6 +12,8 @@ Recommender systems are algorithms designed to suggest relevant items to users b
 ## Contents of Repo
 This repository contains implementations of recommender systems developed over time. Currently, it includes two main types of systems, each designed to provide personalized recommendations. Below is an overview of the methodologies, implementations, and key features of these systems
 
+---
+
 ### 1. K-Nearest Neighbors (KNN) Based System
 
 The KNN-based system identifies which user vectors are closest to a given user's vector using collaborative filtering. The fundamental principle of this approach is to leverage user-item interaction patterns, without relying on explicit user or item features. It assumes that users with similar preferences are likely to rate items similarly.
