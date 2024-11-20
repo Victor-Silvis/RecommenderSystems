@@ -25,9 +25,28 @@ The KNN-based system identifies which user vectors are closest to a given user's
 
 ### Implementation Details
 - **Codebase:**  
-  The standalone Python files include the KNN-based system, with separate files for regression and classification approaches.
+  The standalone Python file include the KNN-based system, for regression and classification approaches.
 - **Notebook:**  
-  A Jupyter Notebook demonstrates the performance and compares the regression and classification approaches.
+  A Jupyter Notebook demonstrates the performance and compares the regression and classification approaches across two datasets (Netflix & MovieLens.
 
---
+---
+
+## 2. Singular Value Decomposition (SVD) Based System
+
+This system employs matrix factorization techniques to predict how users might rate items they have not interacted with before. By decomposing the user-item interaction matrix, the system identifies latent features that capture underlying patterns in user preferences and item characteristics.
+
+### Key Features
+- **Base SVD Model:**  
+  Uses matrix factorization to uncover latent relationships between users and items, predicting ratings based on these patterns.
+
+- **SVD++ Model:**  
+  An enhanced version of SVD that incorporates implicit feedback (e.g., user biases toward rating specific types of items). This improvement is particularly useful for sparse datasets where explicit ratings are limited.
+
+### Implementation Details
+- **Codebase:**  
+  Separate Python files are provided for the base SVD model and the SVD++ variant.
+- **Notebook:**  
+  A Jupyter Notebook compares the two approaches, evaluating their performance and practical applications across two datasets (Netflix & MovieLens.
+
+---
 
