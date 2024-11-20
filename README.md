@@ -12,7 +12,6 @@ This system identifies which user vectors are closest to a given user's vector u
 
 Key Features:
 - Collaborative Filtering:
+The recommendation process is purely based on observed user rating patterns and the similarity between users, rather than explicit attributes of users or items.
 
-
-3) A <b>SVD based sysytem</b>. This system utilizes matrix factorization in order to predict what users would rate items they havent interacted with before. Items with highest predicted ratings could then be recommended to that user. This is commonly used as foundation for many e-commerce platform recommender systems. This repo consists of two versions of this system. A base SVD system, as well as a SVD++ system. Which takes into account implicit feedback by the users, in this case the bias of rating items. Both systems can be found in their respecitive python file, and are compared in the notebook file. 
 
