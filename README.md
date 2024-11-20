@@ -10,7 +10,6 @@ Recommender systems are algorithms designed to suggest relevant items to users b
 - Online learning platforms to recommend courses or materials based on user preferences.
 
 ## Contents of Repo
----
 This repository contains implementations of recommender systems developed over time. Currently, it includes two main types of systems, each designed to provide personalized recommendations. Below is an overview of the methodologies, implementations, and key features of these systems
 
 ### 1. K-Nearest Neighbors (KNN) Based System
